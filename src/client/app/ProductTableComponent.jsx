@@ -4,10 +4,6 @@ import ProductRowComponent from './ProductRowComponent.jsx';
 
 export default class ProductTableComponent extends React.Component
 {
-    constructor(props) {
-        super(props)
-    }
-
     render() {
         var rows = [];
         var lastCategory = null;

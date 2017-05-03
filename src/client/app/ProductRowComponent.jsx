@@ -2,10 +2,6 @@ import React from 'react';
 
 export default class ProductRowComponent extends React.Component
 {
-    constructor(props) {
-        super(props)
-    }
-
     render() {
         var name = this.props.product.stocked ?
             this.props.product.name :
